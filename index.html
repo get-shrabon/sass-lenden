@@ -21,20 +21,44 @@
       </div>
     </header>
     <!-- Banner -->
-    <section class="banner__container ">
+    <section class="banner__container">
       <div class="hero__content">
-       <div>
-         <h1>Enhanch Your Online Business!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
-          placeat! Esse magni voluptatem sit eaque vel facilis expedita, nihil
-          inventore.
+        <img src="/images/icon1.webp" class="icon" alt="" />
+        <div>
+          <h1>Enhanch Your Online Business!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, placeat! Esse magni voluptatem sit eaque vel facilis
+            expedita, nihil inventore.
+          </p>
+          <button>Explore</button>
+        </div>
+        <div>
+          <img src="/images/file.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Global Attributes -->
+    <section style="width: 1000px; margin: 100px auto">
+      <p dir="ltr">Direction left-to-right</p>
+      <p dir="rtl">Direction right-to-left</p>
+      <div hidden>This will not be shown.</div>
+      <button tabindex="2">First</button>
+      <button tabindex="1">Second</button>
+      <div contenteditable="true">You can edit this text.</div>
+      <p draggable="true">Drag me!</p>
+      <p translate="no">Do not translate this text.</p>
+      <div
+        id="main"
+        class="container highlight"
+        data-role="main-content"
+        title="Main container"
+      >
+        <p contenteditable="true" spellcheck="true">
+          Edit this text. Spell checking is enabled.
         </p>
-        <button>Explore</button>
-       </div>
-       <div>
-        <img src="/images/file.png" alt="">
-       </div>
+        <button tabindex="1" draggable="true">Drag me</button>
       </div>
     </section>
   </body>
